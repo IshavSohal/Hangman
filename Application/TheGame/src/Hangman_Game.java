@@ -175,20 +175,20 @@ public class Hangman_Game extends javax.swing.JFrame {
         JFrame_Game.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         JFrame_Game.setSize(new java.awt.Dimension(780, 660));
 
-        labelHangmanStructure.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Hangman_Structure.png")); // NOI18N
+        labelHangmanStructure.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Hangman_Structure.png"))); // NOI18N
         labelHangmanStructure.setPreferredSize(new java.awt.Dimension(300, 300));
 
-        labelHead.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Hangman_Face.png")); // NOI18N
+        labelHead.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Hangman_Face.png"))); // NOI18N
 
-        labelBody.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Hangman_Body.png")); // NOI18N
+        labelBody.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Hangman_Body.png"))); // NOI18N
 
-        labelArm1.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Hangman_Arm1.png")); // NOI18N
+        labelArm1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Hangman_Arm2.png"))); // NOI18N
 
-        labelArm2.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Hangman_Arm2.png")); // NOI18N
+        labelArm2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Hangman_Arm1.png"))); // NOI18N
 
-        labelLeg1.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Hangman_Leg1.png")); // NOI18N
+        labelLeg1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Hangman_Leg1.png"))); // NOI18N
 
-        labelLeg2.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Hangman_Leg2.png")); // NOI18N
+        labelLeg2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Hangman_Leg2.png"))); // NOI18N
 
         labelHiddenWord.setFont(new java.awt.Font("Verdana", 1, 24)); // NOI18N
         labelHiddenWord.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -448,7 +448,7 @@ public class Hangman_Game extends javax.swing.JFrame {
             }
         });
 
-        labelHangmanTitle.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\HangmanTitle_Image.png")); // NOI18N
+        labelHangmanTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/HangmanTitle_Image.png"))); // NOI18N
 
         btnClearRecords.setBackground(new java.awt.Color(0, 102, 204));
         btnClearRecords.setFont(new java.awt.Font("Verdana", 1, 11)); // NOI18N
@@ -712,9 +712,9 @@ public class Hangman_Game extends javax.swing.JFrame {
             }
         });
 
-        labelVictory.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Victory_Image.jpg")); // NOI18N
+        labelVictory.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Victory_Image.jpg"))); // NOI18N
 
-        labelMissionPassed.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Mission_Passed.jpg")); // NOI18N
+        labelMissionPassed.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mission_Passed.jpg"))); // NOI18N
 
         javax.swing.GroupLayout JFrame_WinLayout = new javax.swing.GroupLayout(JFrame_Win.getContentPane());
         JFrame_Win.getContentPane().setLayout(JFrame_WinLayout);
@@ -794,9 +794,9 @@ public class Hangman_Game extends javax.swing.JFrame {
             }
         });
 
-        labelMissionFailed.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Mission_Failed.jpg")); // NOI18N
+        labelMissionFailed.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Mission_Failed.jpg"))); // NOI18N
 
-        labelGameOver.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Game_Over.jpg")); // NOI18N
+        labelGameOver.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Game_Over.jpg"))); // NOI18N
 
         javax.swing.GroupLayout JFrame_LoseLayout = new javax.swing.GroupLayout(JFrame_Lose.getContentPane());
         JFrame_Lose.getContentPane().setLayout(JFrame_LoseLayout);
@@ -872,9 +872,9 @@ public class Hangman_Game extends javax.swing.JFrame {
         labelInstruction6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelInstruction6.setText("<html>6) Enjoy, and have fun!!<html>");
 
-        labelQuestionMark.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\MarioQuestionMark.png")); // NOI18N
+        labelQuestionMark.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MarioQuestionMark.png"))); // NOI18N
 
-        labelHowToPlay.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\HowToPlay.png")); // NOI18N
+        labelHowToPlay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/HowToPlay.png"))); // NOI18N
 
         labelUnderline.setFont(new java.awt.Font("Tahoma", 0, 5)); // NOI18N
         labelUnderline.setText("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
@@ -993,11 +993,11 @@ public class Hangman_Game extends javax.swing.JFrame {
         labelName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         labelName.setText("By: Ishav Sohal");
 
-        labelImage1.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\IntroScreen_Image1.jpg")); // NOI18N
+        labelImage1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IntroScreen_Image1.jpg"))); // NOI18N
 
-        labelImage2.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\IntroScreen_Image2.png")); // NOI18N
+        labelImage2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/IntroScreen_Image2.png"))); // NOI18N
 
-        labelBackgroundImage.setIcon(new javax.swing.ImageIcon("C:\\Ishav\\ICS4U_OVS_Course\\Hangman_Assignment\\Application\\TheGame\\Orange_Gradient.jpg")); // NOI18N
+        labelBackgroundImage.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Orange_Gradient.jpg"))); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

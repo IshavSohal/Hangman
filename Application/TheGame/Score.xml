@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<GameScores/>
+<GameScores>
+            
+    
+    <Game>
+                        
+        
+        <Wins>0</Wins>
+                        
+        
+        <Losses>0</Losses>
+                    
+    
+    </Game>
+        
+    
+    <Game>
+                
+        <Wins>1</Wins>
+                
+        <Losses>0</Losses>
+            
+    </Game>
+    
+    <Game>
+        <Wins>0</Wins>
+        <Losses>2</Losses>
+    </Game>
+</GameScores>
